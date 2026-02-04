@@ -6,3 +6,9 @@ kor = st.number_input("국어점수")
 math = st.number_input('영어점수')
 
 st.write(kor + math)
+
+import numpy as np
+
+st.write(np.array([10, 20, 30]))
+
+st.write(np.array([[10,20],[30,40],[50,60]]))
